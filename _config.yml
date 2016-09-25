@@ -2,9 +2,9 @@
 title: alayor
 email: alayor3@mail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Welcome to my awesome blog.
+  Software craftsmanship
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://alonsoayala.com" # the base hostname & protocol for your site
+url: "http://alayor.com" # the base hostname & protocol for your site
 twitter_username: alayor
 github_username: alayor
 linkedin_username: alayor3
