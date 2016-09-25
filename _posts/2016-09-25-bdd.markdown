@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Behaviour-Driven Development"
+title:  "Behavior-Driven Development"
 date:   2016-09-25 12:54:00 -0500
 categories: post
 ---
@@ -31,7 +31,7 @@ Software specifications are written mostly in english -- so when
 interpreters (or programmers) try to process them, we sometimes 
 end up with a software misbehaviour.
 
-Behaviour-Driven Development is a process that intends to solve this
+Behavior-Driven Development is a process that intends to solve this
 kind of problems by providing a common language that a business analyst
 and a computer can read and process.
 
