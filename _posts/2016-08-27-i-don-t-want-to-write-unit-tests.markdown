@@ -6,7 +6,6 @@ categories: post
 ---
 
 Have you ever felt that good sensation when you fix duplicate code?
-
 I am sure you have felt that satisfaction when you know that you did 
 the right thing and you know that everybody is going to be happy and 
 will see the great developer you are.

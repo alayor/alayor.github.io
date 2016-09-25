@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  "Behaviour-Driven Development"
-date:   2016-09-25 12:54:00 -0600
+date:   2016-09-25 12:54:00 -0500
 categories: post
 ---
+
 
 _"This feature is not correct. The process should be done biweekly -- twice
 a week,"_ - The analyst said, _"This is totally different from the
