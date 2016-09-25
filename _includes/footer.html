@@ -1,10 +1,23 @@
-{% if site.ads %}<div class="banner-wrapper">
-  {% include ad.html %}
+{% if site.ads %}
+<div class="banner-wrapper">
+    {% include ad.html %}
 </div>{% endif %}
 <footer class="site-footer">
-  <div class="wrapper">
-      <div class="copy">
-          {{ site.time | date: '%Y' }} &copy; {{ site.title }}
-      </div>
-  </div>
+    <div class="wrapper">
+        <div class="copy">
+            {{ site.time | date: '%Y' }} &copy; {{ site.title }}
+            <br />
+            <a href="https://github.com/{{ site.github_username }}">
+                <i class="fa fa-github"></i> GitHub/alayor
+            </a>
+            |
+            <a href="https://linkedin.com/in/{{ site.linkedin_username }}">
+                <i class="fa fa-linkedin"></i> LinkedIn/alayor3
+            </a>
+            |
+            <a href="https://angel.co//{{ site.angellist_username }}">
+                <i class="fa fa-angellist"></i> AngelList/alayor
+            </a>
+        </div>
+    </div>
 </footer>
