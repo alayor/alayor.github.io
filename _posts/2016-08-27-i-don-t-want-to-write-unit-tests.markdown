@@ -6,24 +6,22 @@ categories: post
 ---
 
 Have you ever felt that good sensation when you fix duplicate code?
+
 I am sure you have felt that satisfaction when you know that you did 
-the right thing and you know that everybody is going to be happy and 
-will see the great developer you are.
+the right thing and everybody is happy.
 
 Have you ever felt the same satisfaction when you create a unit test? 
 Probably not.
 
-Why don’t we feel the same satisfaction given that the creation of the 
-unit test is probably more important that elimination duplicate code?
+The creation of a unit test may be more important than duplicate code 
+elimination. However, You might think this is wrong. 
 
-Maybe you think that fixing duplicate code is much more important than 
-the creation of a unit test. And even more important when we know that 
-the method is already working. You also may think that this process is 
-tedious and a waste of time even though we know it’s important. 
-But, what's the reason for that?
+You may also think this process is tedious and a waste of time 
+because the code is already working and why we should bother.
+But, is that really a waste of time?
 
 The reason could be that refactoring is something we can feel proud 
-about, something we can show to our team, and is something that makes 
+about, something we can show off to our team, and is something that makes 
 us feel good when our team leader learns of this great achievement.
 
 Creating a unit test is not something you can feel proud about. It’s 
@@ -31,15 +29,13 @@ not something you can brag about to your teammates or something that
 makes your team leader proud of you.
 
 Maybe this is because most of the time the execution of this unit test 
-is hidden until you or some other developer breaks it. One of the uses 
-for a unit test is the ease of refactoring tasks, which by the way, 
-sometimes these are not wanted because they also are a “waste of time”. 
-There are more software bugs related to a missing unit test than to a 
-missing refactoring.
+is hidden until you or some other developer breaks it. Unit tests make
+refactoring much easier, which by the way. 
+There are more software bugs related to a missing unit test than bugs 
+related to missing refactorings.
 
 We first need a well unit test suite before doing a bug-free refactor. 
-This could mean that unit tests could be even more important that 
-refactoring.
+This means that unit tests are even more important that refactoring.
 
 Unit and functional tests are the specifications and design of our 
 system. We cannot develop a system without requirements, thus, unit 
@@ -53,8 +49,8 @@ business rules and use cases are. Why do we hate them so much and try to
 avoid them?
 
 Software companies see tests as a quality control tool which process is 
-executed at the end of the SDLC. This tests should be defined before 
-start the code development and they should be executed every time the 
+executed at the end of the SDLC. These tests should be defined before 
+starting the code development and they should be executed every time the 
 system is built or compiled.
 
 Let’s give unit tests the place they deserve in our code, which is the 
