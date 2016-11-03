@@ -13,7 +13,7 @@ the right thing and everybody is happy.
 Have you ever felt the same satisfaction when you create a unit test? 
 Probably not.
 
-![Required]({{ site.url }}/assets/images/unit-test-cat.png)
+![Required](/assets/images/unit-test-cat.png)
 
 The creation of a unit test may be more important than duplicate code 
 elimination. However, You might think this is wrong. 
