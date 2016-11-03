@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Test-driven specifications"
+title:  "Test Driven Specifications"
 date:   2016-06-20 20:00:56 -0500
 categories: post
+image: //assets/images/required.png
 ---
 
 We write code for fun. But we also write code to solve a problem based 
