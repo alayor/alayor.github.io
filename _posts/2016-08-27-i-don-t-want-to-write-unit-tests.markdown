@@ -3,7 +3,7 @@ layout: post
 title:  "I Don't Want To Write Unit Tests"
 date:   2016-06-4 18:00:56 -0500
 categories: post
-image: /assets/images/required.png
+image: /assets/images/unit-test-cat.png
 ---
 
 Have you ever felt that good sensation when you fix duplicate code?
@@ -12,6 +12,8 @@ the right thing and everybody is happy.
 
 Have you ever felt the same satisfaction when you create a unit test? 
 Probably not.
+
+![Required]({{ site.url }}/assets/images/unit-test-cat.png)
 
 The creation of a unit test may be more important than duplicate code 
 elimination. However, You might think this is wrong. 

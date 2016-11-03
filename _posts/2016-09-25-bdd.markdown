@@ -36,6 +36,8 @@ Behavior-Driven Development is a process that intends to solve this
 kind of problems by providing a common language that a business analyst
 and a computer can read and process.
 
+![Required]({{ site.url }}/assets/images/bdd.png)
+
 There are several frameworks, like Cucumber, that can be used to 
 implement BDD.
 Cucumber is a framework that provides a common language used to write 
