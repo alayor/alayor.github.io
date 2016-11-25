@@ -318,10 +318,20 @@
     float: left
 }
 .post-thumb img {
-    display: block
+    display: block;
+    width: 335px;
+    height: 225px
 }
-.post-preview{
-    margin-left: 210px
+
+.post-preview {
+   @media (min-width: 992px) {
+      width: 50%
+    }
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 .post-title {
     font-weight: bold;
