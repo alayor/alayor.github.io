@@ -132,13 +132,10 @@
     list-style: none;
 
     > li {
-        margin-bottom: $spacing-unit;
+        margin-bottom: 50px;
     }
     h2{
       margin: 0;
-    }
-    .description{
-      padding: 12px 0;
     }
 }
 
@@ -149,9 +146,13 @@
 
 .post-link {
     display: block;
-    font-size: 24px;
+    font-size: 38px;
+    font-weight: bold;
 }
 
+a, a:visited {
+    color: inherit;
+}
 
 /**
  * Posts
@@ -179,7 +180,6 @@
     color: #111;
     font-size: 19px;
     font-weight: 400;
-    font-family: "Cambria","Georgia","Times New Roman",serif;
     line-height: 25px;
 
     h2 {
