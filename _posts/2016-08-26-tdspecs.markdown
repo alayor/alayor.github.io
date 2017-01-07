@@ -3,6 +3,7 @@ layout: post
 title:  "Test-driven specifications"
 date:   2016-06-20 20:00:56 -0500
 categories: post
+comments: true
 ---
 
 We write code for fun. But we also write code to solve a problem based 
