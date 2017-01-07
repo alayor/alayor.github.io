@@ -3,7 +3,6 @@ layout: post
 title:  "Behavior-Driven Development"
 date:   2016-09-25 12:54:00 -0500
 categories: post
-image: /assets/images/bdd.png
 ---
 
 
@@ -35,8 +34,6 @@ end up with a software misbehaviour.
 Behavior-Driven Development is a process that intends to solve this
 kind of problems by providing a common language that a business analyst
 and a computer can read and process.
-
-![Required](/assets/images/bdd.png)
 
 There are several frameworks, like Cucumber, that can be used to 
 implement BDD.

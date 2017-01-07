@@ -1,16 +1,15 @@
 ---
 layout: post
-title:  "Test Driven Specifications"
+title:  "Test-driven specifications"
 date:   2016-06-20 20:00:56 -0500
 categories: post
-image: /assets/images/required.png
 ---
 
 We write code for fun. But we also write code to solve a problem based 
 on provided requirements. Behind every new feature, there is a 
 requirement or specification that our code must met.
 
-![Required](/assets/images/required.png)
+![Required]({{ site.url }}/assets/images/required.png)
 
 How can we verify if our code is really meeting those specifications?
 
