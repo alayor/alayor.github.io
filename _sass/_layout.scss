@@ -165,8 +165,8 @@
 }
 
 .post-title {
-    font-size: 42px;
-    letter-spacing: -1px;
+    font-size: 38px;
+    font-weight: bold;
     line-height: 1;
 
     @include media-query($on-laptop) {
@@ -176,6 +176,11 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
+    color: #111;
+    font-size: 19px;
+    font-weight: 400;
+    font-family: "Cambria","Georgia","Times New Roman",serif;
+    line-height: 25px;
 
     h2 {
         font-size: 32px;
