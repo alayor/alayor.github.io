@@ -7,11 +7,11 @@ comments: true
 ---
 
 
-_"This feature is not correct. The process should be done biweekly -- twice
+_"This feature is not correct. The process should be done **biweekly** -- twice
 a week,"_ - The analyst said, _"This is totally different from the
 feature I requested."_
 
-This was the second demo meeting held with the business analyst to show 
+This was the **second** demo meeting held with the business analyst to show
 this new feature and it was the second rejection.
 
 _"We thought 'biweekly' meant every two weeks,"_ The programmer said,
@@ -21,43 +21,47 @@ it seems it has ambiguities in some parts."_
 _"Fair enough, I'll revisit it and try to correct any ambiguity"_ - The
 analyst agreed.
 
-What's the cost of this kind of misinterpretations? What can we do to
-avoid them?
+What's the **cost** of this kind of misinterpretations? What can we do to
+**avoid** them?
 
-The reason why languages like english or spanish are not used to create
-software is because these languages have ambiguities that hinders the
-process for an interpreter to read and process.
+The reason why we don't use _plain english_ to write code is because it
+can cause ambiguities that makes it **difficult** to read.
 
 Software specifications are written mostly in english -- so when 
 interpreters (or programmers) try to process them, we sometimes 
-end up with a software misbehaviour.
+end up with a software **misbehavior**.
 
-Behavior-Driven Development is a process that intends to solve this
-kind of problems by providing a common language that a business analyst
-and a computer can read and process.
+**Behavior-Driven Development** is a process that intends to solve this
+kind of problems by providing a common language that a _business analyst_
+and a _computer_ can **read** and process.
 
-There are several frameworks, like Cucumber, that can be used to 
+There are several tools, like _**[Cucumber](https://cucumber.io/)**_, that can be used to
 implement BDD.
-Cucumber is a framework that provides a common language used to write 
+Cucumber is a framework that provides a **common language** used to write
 software specifications.
 
 Cucumber allows users to create _feature_ files that analysts can use to
-write specifications and define the behaviour of new features as well
+write specifications and define the **behaviour** of new features as well
 as the entire system.
 
-Likewise, these files can be read by a computer and can be used to 
+Likewise, these files can be **read by a computer** and can be used to
 execute functional tests in order to find out if a particular behaviour
-is being executed correctly.
+is being executed **correctly**.
 
-BDD's main purpose is to solve communication problems inside a software
-development team. However, we can use this tool in an interesting way 
-when the specifications are defined prior the development of a new feature.
+The main purpose of BDD is to solve **communication problems** inside a software
+development team.
 
-By having all the specifications defined previously, we can test anytime 
-if our current development is meeting these requirements. We can also 
-test if we are breaking existing functionality.
+Moreover, we can use this tool in an _interesting way_
+when the specifications are **defined prior** the development of a new feature.
 
-By using BDD, software development teams keep one source of truth that
-enables the team to agreed on the real intention and purpose of any old 
-and new feature. Teams can finally stop having misinterpretations
-and communication problems when delivering new functionality.
+**By having all the specifications defined previously, we can test anytime
+if our current development is meeting these requirements.**
+
+We can also test if we are breaking existing functionality.
+
+BDD allows software development teams keep **one source of truth** that
+enables the team **agreed** on the **real intention** and purpose of any old
+and new feature.
+
+Teams can finally **stop having misinterpretations** and communication
+problems when delivering new functionality.

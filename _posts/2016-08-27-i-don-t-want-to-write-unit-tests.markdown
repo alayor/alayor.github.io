@@ -6,52 +6,59 @@ categories: post
 comments: true
 ---
 
-Have you ever felt that good sensation when you fix duplicate code?
+Have you ever felt that good sensation when you fix **duplicate code**?
 I am sure you have felt that satisfaction when you know that you did 
-the right thing and everybody is happy.
+the right thing and everybody is happy about it.
 
-Have you ever felt the same satisfaction when you create a unit test? 
-Probably not.
+Have you ever felt the same satisfaction when you create a **unit test**? 
+
+_Probably not._
 
 The creation of a unit test may be more important than duplicate code 
-elimination. However, You might think this is wrong. 
+elimination.
 
-You may also think this process is tedious and a waste of time 
-because the code is already working and why we should bother.
-But, is that really a waste of time?
+You may think this process is a waste of time and we shouldn't bother
+to create unit tests for code that is already working.
 
-The reason could be that refactoring is something we can feel proud 
-about, something we can show off to our team, and is something that makes 
-us feel good when our team leader learns of this great achievement.
+_But - is it really a waste of time?_
+
+Refactoring a piece of code is something we can feel **proud** 
+about, something we can show off to our team, and something that makes 
+us **feel good**.
 
 Creating a unit test is not something you can feel proud about. It’s 
 not something you can brag about to your teammates or something that 
 makes your team leader proud of you.
 
-Maybe this is because most of the time the execution of this unit test 
-is hidden until you or some other developer breaks it. Unit tests make
-refactoring much easier, which by the way. 
+Maybe this is because most of the time the **execution** of this unit test 
+is hidden until you or some other developer **breaks it**. 
+
+The **truth** is that _unit tests_ make refactoring much **easier**. 
 There are more software bugs related to a missing unit test than bugs 
 related to missing refactorings.
 
-We first need a well unit test suite before doing a bug-free refactor. 
-This means that unit tests are even more important that refactoring.
+We need a well suite of unit tests before doing a **bug-free** refactor. 
+Thus, unit tests are even **more important** that refactoring.
 
-Unit and functional tests are the specifications and design of our 
-system. We cannot develop a system without requirements, thus, unit 
-and functional tests are more important than our production code. 
-Designing a system is an engineering task. Developing the production 
-code is a technical task.
+Unit tests and functional tests are the **specifications** and design of our 
+**system**. We cannot develop a system without requirements. 
+
+_**Unit and functional tests are more important than the production code.**_
+ 
+Writing the production code is a **technical** task. 
+Designing a system is an **engineering** task.
 
 Unit and functional tests represent the description of our system, 
-they tell us what the system does, how we can use it and what the 
-business rules and use cases are. Why do we hate them so much and try to 
-avoid them?
+they tell us what the system **does**, how we can **use** it and what the 
+business rules and use cases are. 
 
-Software companies see tests as a quality control tool which process is 
-executed at the end of the SDLC. These tests should be defined before 
-starting the code development and they should be executed every time the 
-system is built or compiled.
+*Why do we hate them so much and try to avoid them?*
+
+Software companies use tests as a **quality control** which has to be executed 
+executed at **the end** of the SDLC. 
+
+Functional tests should be defined **before** starting the code development 
+and they should be executed **every time** the system is compiled.
 
 Let’s give unit tests the place they deserve in our code, which is the 
-base for requirements and the description of our system.
+**base for the requirements** and the **description of our system**.
