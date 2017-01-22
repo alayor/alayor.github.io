@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "I don't want to write unit tests"
+title:  "I Don't Want To Write Unit Tests"
 date:   2016-06-4 18:00:56 -0500
 categories: post
 comments: true
