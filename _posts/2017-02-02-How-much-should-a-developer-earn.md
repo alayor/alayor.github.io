@@ -12,6 +12,8 @@ We get paid to **pretend** to be working 8 o 9 hours per day. But the reality is
 that we don’t exactly spend that amount of time **working**. We spent/waste time 
 on meetings, chatting, discussing, etc.
 
+![Required](/assets/images/landscape.jpg)
+
 Even if we have conversations about the project or about how to solve misunderstandings 
 in requirements, we are **wasting** our time by doing these things.
 
@@ -22,7 +24,9 @@ Currently, some companies are changing the way people get products and services
 by **sharing time and space** in a more flexible way. 
 
 We can see this change in companies like Uber or AirBnb which allow _workers_ to share 
-its own space and time. We need to apply this change to services like **software development**. 
+its own space and time. 
+
+We need to apply this change to services like **software development**. 
 
 We can do this by being more **flexible** about the amount of time developers work 
 for a particular project. 
