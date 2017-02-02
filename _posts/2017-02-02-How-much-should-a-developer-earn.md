@@ -46,7 +46,7 @@ are able to be involved in different kinds of projects -- allowing them to **lea
 There are many companies that provide services that allow employers to **find freelancers** and at the same
 time help developers use their time to work on **different projects**.
 
-Probably the best and most famous company is _**<a href="https://www.toptal.com/" target="_blank">Toptal</a>**_, 
+Probably the best and most famous company is _**<a href="https://www.toptal.com/software" target="_blank">Toptal</a>**_, 
 which not only provides this service but also helps the employers to be connected with **high-skilled 
 freelancers** which guarantees success in any project.
 
