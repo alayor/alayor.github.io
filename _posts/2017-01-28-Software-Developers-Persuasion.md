@@ -13,7 +13,9 @@ quality** possible and that she will put all her effort to create bug-free code.
 
 This developer will code on her own and **without nobody's help**.
 
-The developer then starts to think what could be the best way to deliver
+![Required](/assets/images/landscape_mountains.jpg)
+
+The developer then started to think what could be the best way to deliver
 a product with absolutely **no bugs**. 
 
 _"I surely need to create unit tests"_, The developer thought.

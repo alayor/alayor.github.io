@@ -14,6 +14,8 @@ requirement or specification that our code _must met_.
 
 How can we _verify_ if our code is really meeting those specifications?
 
+![Required](/assets/images/landscape_sunset.jpg)
+
 There are several techniques to solve this. Companies usually have **demo
 meetings** with the people who created the specifications so that they can
 provide feedback and approve the solution.

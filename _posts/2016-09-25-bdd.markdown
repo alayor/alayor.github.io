@@ -14,6 +14,8 @@ feature I requested."_
 This was the **second** demo meeting held with the business analyst to show
 this new feature and it was the second rejection.
 
+![Required](/assets/images/landscape_horses.jpg)
+
 _"We thought 'biweekly' meant every two weeks,"_ The programmer said,
 _"We tried to follow verbatim every requirement in the user story, but
 it seems it has ambiguities in some parts."_
