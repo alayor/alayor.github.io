@@ -55,7 +55,7 @@ Probably it would it be different if you had ask your manager to send you
 an **email** with all the instructions.
 
 Had your manager written an email with the instructions, this situation
-would be different.
+would have been different.
 
 Verbal communication gives us a **feeling of productivity** and makes us think
 that we are making the most of our time.

@@ -4,11 +4,9 @@ title: About
 permalink: /about
 ---
 
-Alayor is an experienced programmer. He started his career in 2010
-in Chihuahua, Mexico as backend developer.
-
+**Alonso A. Ortega** *(alayor)* is a Professional Software Engineer with 6 years of experience. 
+He started his career in Mexico as Software developer. 
 He has worked on several companies in Mexico and USA.
 
-He has also worked on his personal projects trying to apply the best 
-practices in order to create the best architecture with the best
-practices and the cleanest code. 
+Specialities: 
+Java, Javascript, Web Services, BDD/TDD, SQL, OOP, Software Design, Problem solving.

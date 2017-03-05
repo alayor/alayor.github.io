@@ -7,7 +7,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.alayor.com" # the base hostname & protocol for your site
 twitter_username: alayor
 github_username: alayor
-linkedin_username: alayor3
+linkedin_username: alayor
 angellist_username: alayor
 
 # Build settings
