@@ -4,8 +4,8 @@ title:  "Behavior-Driven Development"
 date:   2016-09-25 12:54:00 -0500
 categories: post
 comments: true
+excerpt_separator: <!--excerpt_end-->
 ---
-
 
 _"This feature is not correct. The process should be done **biweekly** -- twice
 a week,"_ - The analyst said, _"This is totally different from the
@@ -14,6 +14,7 @@ feature I requested."_
 This was the **second** demo meeting held with the business analyst to show
 this new feature and it was the second rejection.
 
+<!--excerpt_end-->
 ![Required](/assets/images/landscape_horses.jpg)
 
 _"We thought 'biweekly' meant every two weeks,"_ The programmer said,

@@ -3,6 +3,7 @@ layout: post
 title:  "Software Developer's Persuasion"
 date:   2017-01-28 22:31:00 -0600
 categories: post
+excerpt_separator: <!--excerpt_end-->
 ---
 
 One day a manager asked a developer to create some **new feature**
@@ -13,6 +14,7 @@ quality** possible and that she will put all her effort to create bug-free code.
 
 This developer will code on her own and **without nobody's help**.
 
+<!--excerpt_end-->
 ![Required](/assets/images/landscape_mountains.jpg)
 
 The developer then started to think what could be the best way to deliver

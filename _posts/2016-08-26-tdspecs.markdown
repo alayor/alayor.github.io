@@ -4,6 +4,7 @@ title:  "Test Driven Specifications"
 date:   2016-06-20 20:00:56 -0500
 categories: post
 comments: true
+excerpt_separator: <!--excerpt_end-->
 ---
 
 We write code for **fun**. But we also write code to solve a problem based
@@ -14,6 +15,7 @@ requirement or specification that our code _must met_.
 
 How can we _verify_ if our code is really meeting those specifications?
 
+<!--excerpt_end-->
 ![Required](/assets/images/landscape_sunset.jpg)
 
 There are several techniques to solve this. Companies usually have **demo

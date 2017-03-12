@@ -5,23 +5,7 @@
 <footer class="site-footer">
     <div class="wrapper">
         <div class="copy">
-            {{ site.time | date: '%Y' }} &copy; {{ site.title }}
-            <br />
-            <a href="https://github.com/{{ site.github_username }}">
-                <i class="fa fa-github"></i> GitHub/alayor
-            </a>
-            |
-            <a href="https://linkedin.com/in/{{ site.linkedin_username }}">
-                <i class="fa fa-linkedin"></i> LinkedIn/alayor
-            </a>
-            |
-            <a href="https://angel.co//{{ site.angellist_username }}">
-                <i class="fa fa-angellist"></i> AngelList/alayor
-            </a>
-            |
-            <a href="mailto:blog@alayor.com" title="blog@alayor.com">
-                <i class="fa" aria-hidden="true">blog@alayor.com</i>
-            </a>
+            {{ site.time | date: '%Y' }} &copy; {{ site.author }}
         </div>
     </div>
 </footer>

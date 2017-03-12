@@ -4,6 +4,7 @@ title:  "Freelancing: How much should a developer earn?"
 date:   2017-02-02 13:05:23 -0600
 categories: post
 comments: true
+excerpt_separator: <!--excerpt_end-->
 ---
 We live in a world of **appearances**. The amount of time we spent at the office 
 is not equals to the amount of work we **do**.
@@ -12,6 +13,7 @@ We get paid to **pretend** to be working 8 o 9 hours per day. But the reality is
 that we don’t exactly spend that amount of time **working**. We spent/waste time 
 on meetings, chatting, discussing, etc.
 
+<!--excerpt_end-->
 ![Required](/assets/images/landscape.jpg)
 
 Even if we have conversations about the project or about how to solve misunderstandings 

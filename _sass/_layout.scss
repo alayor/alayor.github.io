@@ -98,10 +98,19 @@
                 margin-right: 0;
             }
             &:hover{
-                background-color: #5D6471;
+                text-decoration: none;
             }
         }
     }
+}
+
+.social {
+  text-align: center;
+
+  a {
+    margin: 10px;
+    font-size: 19px;
+  }
 }
 
 
@@ -113,7 +122,7 @@
     padding: $spacing-unit 0;
 }
 .copy {
-    float: left;
+    text-align: center;
 }
 
 /**
@@ -285,31 +294,8 @@ a, a:visited {
     opacity: .8;
 
     &:hover {
-      opacity: 1;
-      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+     cursor: pointer;
+     text-decoration: none;
     }
   }
-}
-.fb a {
-  background: #306199;
-}
-
-.linkedin a {
-  background: #007bb6;
-}
-
-.twitter a {
-  background: #26c4f1;
-}
-
-.gplus a {
-  background: #e93f2e;
-}
-
-.pinterest a {
-  background: #b81621;
-}
-
-.pinterest {
-  margin-right: 0;
 }

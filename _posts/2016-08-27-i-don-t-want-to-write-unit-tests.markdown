@@ -4,18 +4,19 @@ title:  "I Don't Want To Write Unit Tests"
 date:   2016-06-4 18:00:56 -0500
 categories: post
 comments: true
+excerpt_separator: <!--excerpt_end-->
 ---
 
 Have you ever felt that good sensation when you fix **duplicate code**?
 I am sure you have felt that satisfaction when you know that you did 
 the right thing and everybody is happy about it.
 
-![Required](/assets/images/winter.jpg)
-
 Have you ever felt the same satisfaction when you create a **unit test**? 
 
 _Probably not._
 
+<!--excerpt_end-->
+![Required](/assets/images/winter.jpg)
 The creation of a unit test may be more important than duplicate code 
 elimination.
 

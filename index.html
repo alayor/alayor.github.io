@@ -12,7 +12,13 @@ layout: default
             </h2>
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
             <p class="description">
-                {{post.excerpt}}</p>
+                {{post.excerpt}}
+            </p>
+            <p>
+                <a href="{{ post.url }}">
+                    continue...
+                </a>
+            </p>
         </li>
         {% endfor %}
     </ul>

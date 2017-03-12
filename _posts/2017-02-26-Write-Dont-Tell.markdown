@@ -4,6 +4,7 @@ title:  "Write, Don't Tell"
 date:   2017-02-26 19:18:23 -0600
 categories: post
 comments: true
+excerpt_separator: <!--excerpt_end-->
 ---
 There are two types of communication that we use to share information in our team.
 **Written and verbal communication**.
@@ -11,11 +12,12 @@ When is it **better** to use one over the other?
 
 In other words, when should we _write_ instead of _talk_?
 
-![Required](/assets/images/landscape_ice.jpg)
-
 We tend to believe that speaking is more **effective** when we try to **share information**.
 Verbal communication has **quicker** results and it allows to have more personal contact
 with the receptor.
+
+<!--excerpt_end-->
+![Required](/assets/images/landscape_ice.jpg)
 
 Also, you don't have to worry much about **grammar** when you use verbal communication. If you
 make a grammar mistake, nobody really cares.
