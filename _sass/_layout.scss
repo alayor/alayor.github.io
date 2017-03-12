@@ -111,6 +111,9 @@
     margin: 10px;
     font-size: 19px;
   }
+  a:hover {
+    text-decoration: none;
+  }
 
   .photo {
     border-radius: 50%;
@@ -256,7 +259,7 @@ a, a:visited {
     margin-bottom: 3em;
   }
 
-  a{
+  a {
     background: #515865;
     padding: 7px 12px;
     border-radius: 3px;
