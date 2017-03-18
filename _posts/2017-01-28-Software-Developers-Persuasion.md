@@ -3,6 +3,7 @@ layout: post
 title:  "Software Developer's Persuasion"
 date:   2017-01-28 22:31:00 -0600
 categories: post
+comments: true
 excerpt_separator: <!--excerpt_end-->
 ---
 
