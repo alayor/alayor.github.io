@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Write, Don't Tell"
+title:  "Write, Don't Talk"
 date:   2017-02-26 19:18:23 -0600
 categories: post
 comments: true
