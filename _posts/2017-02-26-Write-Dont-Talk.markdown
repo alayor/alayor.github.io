@@ -5,6 +5,7 @@ date:   2017-02-26 19:18:23 -0600
 categories: post
 comments: true
 excerpt_separator: <!--excerpt_end-->
+image: /assets/images/landscape_ice.jpg
 ---
 There are two types of communication that we use to share information in our team.
 **Written and verbal communication**.
