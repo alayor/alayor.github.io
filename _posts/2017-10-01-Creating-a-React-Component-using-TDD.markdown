@@ -10,29 +10,27 @@ excerpt_separator: <!--excerpt_end-->
 It's become mandatory to use TDD in every new piece of code we write if
 we want to avoid creating legacy code from the beginning.
 
-We have many tools available to create unit tests in javascript and some other
-nice tools intended for React and the Flux architecture.
+We have many tools available to create unit tests in javascript and react.
 
 In this post we will be using `jest` and `enzyme` to create a simple React Component
 using Test-driven Development.
 
 <!--excerpt_end-->
-
+<br />
 This example was created using the following versions:
-
-`"react": "15.4.0"`
-
-`"react-dom": "^15.6.1"`
-
-`"enzyme": "^2.9.1"`
-
-`"jest": "^21.0.1"`
-
-* The first step is to create the component.
+```json
+{
+  "react": "15.4.0",
+  "react-dom": "^15.6.1",
+  "enzyme": "^2.9.1",
+  "jest": "^21.0.1"
+}
+```
+* The first step is to create the react component.
 
 <span style="color:red">Red</span>
 ```javascript
-// MyComponent.spec.js
+// MyComponent.test.js
 import { shallow } from 'enzyme';
 describe("MyComponent", () => {
   it("should render my component", () => {
@@ -54,12 +52,12 @@ class MyComponent extends React.Component {
 }
 export default MyComponent;
 ```
-* We then make sure the component matches a predefined snapshot by making
-sure it contains another React Component.
+* Then, we add a child component by changing the snapshot first and then
+asserting it by using the method `toMatchSnapshot()`.
 
 <span style="color:red">Red</span>
 ```javascript
-// MyComponent.spec.js.snap
+// MyComponent.test.js.snap
 exports[`MyComponent should render initial layout 1`] = `
 Array [
   <MyForm />,
@@ -67,7 +65,7 @@ Array [
 `;
 ```
 ```javascript
-// MyComponent.spec.js
+// MyComponent.test.js
 it("should render initial layout", () => {
   // when
   const wrapper = shallow(<MyComponent/>);
@@ -92,12 +90,12 @@ class MyComponent extends React.Component {
 }
 export default MyComponent;
 ```
-* We can then specify a function passed to the child component as a prop. For this
-we need to change the snapshot.
+* We can then pass a function to the child component as a prop. We first change
+the snapshot to make the test fail. After that, we add the prop in `<MyForm>`.
 
 <span style="color:red">Red</span>
 ```javascript
-// MyComponent.spec.js
+// MyComponent.test.js
 exports[`MyComponent should render initial layout 1`] = `
 Array [
   <MyForm
@@ -125,12 +123,12 @@ class MyComponent extends React.Component {
 }
 export default MyComponent;
 ```
-* Then, we can make sure that the function is executed when it's called inside
-the form
+* Then, we make sure that the method `updateState` is executed after the
+function `onChange` its called in the child.
 
 <span style="color:red">Red</span>
 ```javascript
-// MyComponent.spec.js
+// MyComponent.test.js
 it("should execute function passed to form", () => {
   // given
   jest.spyOn(MyComponent.prototype, 'updateState');
@@ -144,14 +142,13 @@ it("should execute function passed to form", () => {
 ```
 TypeError: Cannot read property '_isMockFunction' of undefined
 ```
-This last error is caused by the missing function we want to pass to
-the child component. We create this method to green out the cycle.
+This indicates that we need to add the `updateState` method to the component.
 
 <span style="color:green">Green</span>
 ```javascript
 // MyComponent.js
 class MyComponent extends React.Component {
-  updateState() {
+  updateState() { // <-- new method
   }
   render() {
     return (
@@ -165,7 +162,7 @@ class MyComponent extends React.Component {
 export default MyComponent;
 ```
 After executing the same test again we get a new error indicating that the function
-didn't get called. We makw it pass by just passing this function to the child.
+didn't get called. We make it pass by passing this function to the child.
 
 <span style="color:red">Red</span>
 ```
@@ -189,4 +186,10 @@ class MyComponent extends React.Component {
 }
 export default MyComponent;
 ```
-<!--excerpt_end-->
+We now have a simple React Component created using pure TDD.
+
+This process may seems slow at the beginning.
+However, we gain a lot more in the long run.
+
+TDD allows us to create well founded software that speeds up the maintenance
+process and reduce its cost.
