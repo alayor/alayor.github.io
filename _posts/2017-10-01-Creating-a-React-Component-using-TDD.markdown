@@ -5,6 +5,7 @@ date:   2017-10-01
 categories: post
 comments: true
 excerpt_separator: <!--excerpt_end-->
+image: /assets/images/react.png
 ---
 
 It's become mandatory to use TDD in every new piece of code we write if
@@ -16,7 +17,8 @@ In this post we will be using `jest` and `enzyme` to create a simple React Compo
 using Test-driven Development.
 
 <!--excerpt_end-->
-<br />
+![Required](/assets/images/react.png)
+
 This example was created using the following versions:
 ```json
 {
