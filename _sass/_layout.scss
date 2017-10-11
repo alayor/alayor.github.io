@@ -285,17 +285,18 @@ a, a:visited {
   list-style: none;
   margin: 0 auto;
   display: inline-block;
-  padding-bottom: 25px;
-  font-size: 14px;
+  padding-bottom: 60px;
+  font-size: 22px;
+  font-style: italic;
 
   li {
     float: left;
-    margin-right: 5px;
+    margin-right: 1px;
   }
 
   .share {
-    padding: 4px;
-    font-size: 16px
+    padding: 10px;
+    font-size: 18px
   }
 
   a {
@@ -303,7 +304,7 @@ a, a:visited {
     display: block;
     font-weight: 600;
     text-decoration: none;
-    padding: 5px 10px;
+    padding: 7px 10px;
     opacity: .8;
 
     &:hover {
