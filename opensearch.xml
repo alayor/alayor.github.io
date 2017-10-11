@@ -2,14 +2,14 @@
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
     <ShortName>alayor</ShortName>
     <Description>search alayor.com</Description>
-    <Tags>programming behavior testing java</Tags>
+    <Tags>programming professionalism software development testing java</Tags>
     <Contact>blog@alayor.com</Contact>
     <Url type="application/atom+xml" template="http://www.alayor.com/?q={searchTerms}&amp;format=atom"/>
     <Url type="application/rss+xml" template="http://www.alayor.com/?q={searchTerms}&amp;format=rss"/>
     <Url type="text/html" template="http://www.alayor.com/?q={searchTerms}"/>
-    <LongName>alayor</LongName>
+    <LongName>Alonso A. Ortega</LongName>
     <Image height="128" width="128" type="image/png">http://www.alayor.com/favicon.ico</Image>
-    <Developer>Alonso A. Ortega</Developer>
+    <Developer>alayor</Developer>
     <Attribution>Copyright 2016-2017, Alonso A. Ortega, All Rights Reserved</Attribution>
     <Query role="example" searchTerms="java"/>
     <SyndicationRight>open</SyndicationRight>
