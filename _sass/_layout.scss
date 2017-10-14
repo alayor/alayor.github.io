@@ -229,6 +229,8 @@ a, a:visited {
     }
 }
 .pagination, .post-navigation{
+  padding-top: 20px;
+  padding-bottom: 100px;
   a{
     padding: 5px 10px;
     border: 1px solid #ddd;
@@ -274,42 +276,6 @@ a, a:visited {
 
     &+a{
       margin-left: 10px;
-    }
-  }
-}
-
-/*
- Share Button
-*/
-.sharebutton {
-  list-style: none;
-  margin: 0 auto;
-  display: inline-block;
-  padding-bottom: 60px;
-  font-size: 22px;
-  font-style: italic;
-
-  li {
-    float: left;
-    margin-right: 1px;
-  }
-
-  .share {
-    padding: 10px;
-    font-size: 18px
-  }
-
-  a {
-    color: black;
-    display: block;
-    font-weight: 600;
-    text-decoration: none;
-    padding: 7px 10px;
-    opacity: .8;
-
-    &:hover {
-     cursor: pointer;
-     text-decoration: none;
     }
   }
 }
