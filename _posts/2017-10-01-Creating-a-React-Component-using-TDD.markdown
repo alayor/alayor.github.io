@@ -8,30 +8,32 @@ excerpt_separator: <!--excerpt_end-->
 image: /assets/images/react.jpg
 ---
 
-It's become mandatory to use TDD in every new piece of code we write if
-we want to avoid creating legacy code from the beginning.
+Nowadays it's almost mandatory to use TDD in every new piece of software in
+order to avoid creating **<a href="https://en.wikipedia.org/wiki/Legacy_code" target="_blank">legacy</a>** code.
 
-We have many tools available to create unit tests in javascript and react.
+There are many tools available to create unit tests in JavaScript and ReactJS.
 
-In this post we will be using `jest` and `enzyme` to create a simple React Component
+In this post we will be using **<a href="https://facebook.github.io/jest/" target="_blank">jest</a>**
+and **<a href="http://airbnb.io/enzyme/" target="_blank">enzyme</a>** to create a simple React Component
 using Test-driven Development.
 
 <!--excerpt_end-->
 ![Required](/assets/images/react.jpg)
 
 This example was created using the following versions:
-```json
+{% highlight javascript %}
 {
   "react": "15.4.0",
   "react-dom": "^15.6.1",
   "enzyme": "^2.9.1",
   "jest": "^21.0.1"
 }
-```
-* The first step is to create the react component.
+{% endhighlight %}
+The first step is to create a failing test that will try to render a React
+Component using the `shallow` function from `enzyme`.
 
 <span style="color:red">Red</span>
-```javascript
+{% highlight javascript %}
 // MyComponent.test.js
 import { shallow } from 'enzyme';
 describe("MyComponent", () => {
@@ -39,13 +41,15 @@ describe("MyComponent", () => {
     const wrapper = shallow(<MyComponent/>);
   });
 });
+{% endhighlight %}
+
 ```
-```
-MyComponent › should render component
+Should render component
    ReferenceError: MyComponent is not defined
 ```
+
 <span style="color:green">Green</span>
-```javascript
+{% highlight javascript %}
 // MyComponent.js
 class MyComponent extends React.Component {
   render() {
@@ -53,20 +57,23 @@ class MyComponent extends React.Component {
   }
 }
 export default MyComponent;
-```
-* Then, we add a child component by changing the snapshot first and then
+{% endhighlight %}
+
+Enzyme creates a `snapshot` which represents how the component is being rendered.
+We can add a component as child by changing this snapshot first and then
 asserting it by using the method `toMatchSnapshot()`.
 
 <span style="color:red">Red</span>
-```javascript
+{% highlight javascript %}
 // MyComponent.test.js.snap
 exports[`MyComponent should render initial layout 1`] = `
 Array [
   <MyForm />,
 ]
 `;
-```
-```javascript
+{% endhighlight %}
+
+{% highlight javascript %}
 // MyComponent.test.js
 it("should render initial layout", () => {
   // when
@@ -74,14 +81,16 @@ it("should render initial layout", () => {
   // then
   expect(wrapper.find('div').children().nodes).toMatchSnapshot();
 });
+{% endhighlight %}
+
 ```
-```bash
-MyComponent › should render initial layout
+Should render initial layout
    expect(value).toMatchSnapshot()
    Received value does not match stored snapshot 1.
 ```
+
 <span style="color:green">Green</span>
-```javascript
+{% highlight javascript %}
 // MyComponent.js
 class MyComponent extends React.Component {
   render() {
@@ -91,12 +100,14 @@ class MyComponent extends React.Component {
   }
 }
 export default MyComponent;
-```
-* We can then pass a function to the child component as a prop. We first change
+{% endhighlight %}
+
+We can then pass a function to the child component as a prop. We first change
 the snapshot to make the test fail. After that, we add the prop in `<MyForm>`.
 
 <span style="color:red">Red</span>
-```javascript
+{% highlight javascript %}
+
 // MyComponent.test.js
 exports[`MyComponent should render initial layout 1`] = `
 Array [
@@ -105,13 +116,13 @@ Array [
   />,
 ]
 `;
-```
+{% endhighlight %}
 ```
 expect(value).toMatchSnapshot()
  Received value does not match stored snapshot 1.
 ```
 <span style="color:green">Green</span>
-```javascript
+{% highlight javascript %}
 // MyComponent.js
 class MyComponent extends React.Component {
   render() {
@@ -124,12 +135,13 @@ class MyComponent extends React.Component {
   }
 }
 export default MyComponent;
-```
-* Then, we make sure that the method `updateState` is executed after the
+{% endhighlight %}
+
+Then, we make sure that the method `updateState` is executed after the
 function `onChange` its called in the child.
 
 <span style="color:red">Red</span>
-```javascript
+{% highlight javascript %}
 // MyComponent.test.js
 it("should execute function passed to form", () => {
   // given
@@ -140,14 +152,15 @@ it("should execute function passed to form", () => {
   // then
   expect(MyComponent.prototype.updateState).toHaveBeenCalled();
 });
-```
+{% endhighlight %}
 ```
 TypeError: Cannot read property '_isMockFunction' of undefined
 ```
 This indicates that we need to add the `updateState` method to the component.
 
 <span style="color:green">Green</span>
-```javascript
+
+{% highlight javascript %}
 // MyComponent.js
 class MyComponent extends React.Component {
   updateState() { // <-- new method
@@ -162,7 +175,7 @@ class MyComponent extends React.Component {
   }
 }
 export default MyComponent;
-```
+{% endhighlight %}
 After executing the same test again we get a new error indicating that the function
 didn't get called. We make it pass by passing this function to the child.
 
@@ -172,7 +185,7 @@ expect(jest.fn()).toHaveBeenCalled()
 Expected mock function to have been called.
 ```
 <span style="color:green">Green</span>
-```javascript
+{% highlight javascript %}
 // MyComponent.js
 class MyComponent extends React.Component {
   updateState() {
@@ -187,7 +200,7 @@ class MyComponent extends React.Component {
   }
 }
 export default MyComponent;
-```
+{% endhighlight %}
 We now have a simple React Component created using pure TDD.
 
 This process may seems slow at the beginning.
