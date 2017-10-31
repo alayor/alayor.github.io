@@ -154,7 +154,7 @@ it("should execute function passed to form", () => {
 });
 {% endhighlight %}
 ```
-TypeError: Cannot read property '_isMockFunction' of undefined
+TypeError: Cannot read property _isMockFunction_ of undefined
 ```
 This indicates that we need to add the `updateState` method to the component.
 
