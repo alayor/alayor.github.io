@@ -28,11 +28,10 @@ You're right, it's almost impossible to achieve these things.
 But, what if I ask you how much money you would like to have. Or
 how much happiness or love you want in your life.
 
-Is there a limit?
+Is there such a limit?
 
-We find this kind of silly questions in software projects
-as well. For example, when your boss asks you how much time you need to complete
-some feature.
+We find this kind of silly questions in software projects when your boss asks
+you how much time you need to complete some feature.
 
 What would your answer be?
 
@@ -53,10 +52,10 @@ we're looking for some answer that makes us not commit on something. Or that
 makes other people commit.
 
 When your boss asks us how much time we need to finish something, he or she is trying
-to make us commit to the schedule.
+to make us commit to the project schedule.
 
 When we ask on the internet if we should have 100% coverage, we are looking for
-an answer saying we don't need or that we only need 80%.
+an answer saying **we don't need to** -- or that we only need 80%.
 
 There's always a fight between dogmatic and pragmatic people. If you're a dogmatic
 developer you probably follows a TDD process without skipping any steps.
