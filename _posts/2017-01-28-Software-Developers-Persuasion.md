@@ -13,7 +13,7 @@ for a particular system.
 The developer agrees to deliver this new feature with the **best
 quality** possible and that she will put all her effort to create bug-free code.
 
-This developer will code on her own and **without nobody's help**.
+This developer will code on her own and **with nobody's help**.
 
 <!--excerpt_end-->
 ![Required](/assets/images/landscape_mountains.jpg)
