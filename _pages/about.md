@@ -14,3 +14,10 @@ analysis allow him to deliver 100% bug-free solutions which entirely
 meet the client requirements and exceed any expectations.
 
 
+*Certifications*
+
+[Java EE 6](http://www.alayor.com/assets/certs/JavaEE6.pdf)
+
+[Java SE 6](http://www.alayor.com/assets/certs/JavaSE6.pdf)
+
+[PLSQL](http://www.alayor.com/assets/certs/PLSQL.pdf)
