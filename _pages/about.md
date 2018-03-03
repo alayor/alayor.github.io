@@ -14,6 +14,11 @@ analysis allow him to deliver 100% bug-free solutions which entirely
 meet the client requirements and exceed any expectations.
 
 
+<br />
+Email me: <a href="mailto:alayor3@gmail.com">alayor3@gmail.com</a>
+
+<br />
+<br />
 *Certifications*
 
 [Java EE 6](http://www.alayor.com/assets/certs/JavaEE6.pdf)
