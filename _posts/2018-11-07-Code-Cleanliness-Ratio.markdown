@@ -16,7 +16,7 @@ in the repository.
 ![Required](/assets/images/code1.png)
 
 Most of the time software projects are filled up with words and sentences that don't help
-figuring out what the projects are about.
+to figure out what the projects are about.
 
 Some examples of these words are: `for`, `if`, `util`, `service`,
 `processor`, `String`, `int`, and many more.
