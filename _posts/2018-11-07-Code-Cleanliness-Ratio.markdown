@@ -96,7 +96,7 @@ So, the Code Cleanliness Ratio of this code is
 CCR = 4 / 9 = 0.44444
 ```
 
-Let's analyze our second example using the the same Domain Words list.
+Let's analyze our second example using the same Domain Words list.
 
 
 ```java
