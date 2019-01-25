@@ -1,12 +1,22 @@
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if page.title %}{{ page.title }} - {{ site.head_title }}{% else %}{{ site.head_title }}{% endif %}</title>
-  {% seo title=false %}
-  {% if site.google_plus %}<link rel="author" href="https://plus.google.com/+{{site.google_plus}}"/>{% endif %}
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
-  {% if site.ads %}{% include pl-ad.html %}{% endif %}
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}{{ page.title }} - {{ site.head_title }}{% else %}{{ site.head_title }}{% endif %}</title>
+    {% seo title=false %}
+    {% if site.google_plus %}
+    <link rel="author" href="https://plus.google.com/+{{site.google_plus}}"/>
+    {% endif %}
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "
+    /feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="stylesheet" href="{{ "
+    /assets/css/main.css" | prepend: site.baseurl }}">
+    {% if site.ads %}{% include pl-ad.html %}{% endif %}
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-4038217596804832",
+        enable_page_level_ads: true
+      });
+    </script>
 </head>
