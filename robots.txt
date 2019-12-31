@@ -1,5 +1,4 @@
 Sitemap: http://www.alayor.com/sitemap.xml
 
 User-agent: *
-Disallow: /p/
 Disallow: /404.html
