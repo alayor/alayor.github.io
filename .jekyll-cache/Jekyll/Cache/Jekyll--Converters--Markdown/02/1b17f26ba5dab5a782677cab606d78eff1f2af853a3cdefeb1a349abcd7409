@@ -1,0 +1,10 @@
+I";<p>Nowadays it’s almost mandatory to use TDD in every new piece of software in
+order to avoid creating <strong><a href="https://en.wikipedia.org/wiki/Legacy_code" target="_blank">legacy</a></strong> code.</p>
+
+<p>There are many tools available to create unit tests in JavaScript and ReactJS.</p>
+
+<p>In this post we will be using <strong><a href="https://facebook.github.io/jest/" target="_blank">jest</a></strong>
+and <strong><a href="http://airbnb.io/enzyme/" target="_blank">enzyme</a></strong> to create a simple React Component
+using Test-driven Development.</p>
+
+:ET

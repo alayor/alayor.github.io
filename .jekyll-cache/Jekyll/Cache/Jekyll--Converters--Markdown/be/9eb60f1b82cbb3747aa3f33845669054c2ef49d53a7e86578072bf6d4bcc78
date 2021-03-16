@@ -1,0 +1,60 @@
+I"�	<p>Should I test all setters and getters? What about testing code that I don’t own?
+Should I use pure TDD without skipping any steps?</p>
+
+<p>The short answer is: Yes.</p>
+
+<p>But the long answer is: Yes, you should.</p>
+
+<p>We shouldn’t set any limit to quality, we should always strive to get perfect each line
+of code and build 100% bug-free software solutions.</p>
+
+<!--excerpt_end-->
+<p><img src="/assets/images/code1.png" alt="Required" /></p>
+
+<p>You may feel uncomfortable with these answers.</p>
+
+<p>You’re right, it’s almost impossible to achieve these things.</p>
+
+<p>But, what if I ask you how much money you would like to have? 
+Or how much happiness or love you want in your life?</p>
+
+<p>Is there a limit to such things?</p>
+
+<p>We can often find these silly questions crop up in software projects when your boss asks you 
+how much time you need to complete a particular feature.</p>
+
+<p>What would your answer be?</p>
+
+<p>You can tell her that you need to analyze similar features previously developed in order to 
+give a more accurate answer.</p>
+
+<p>However, the answer should be: <em>“I need all the time in the world”</em>.</p>
+
+<p>Then, she will probably tell you: <em>“I’ll give you 3 months”</em>.</p>
+
+<p><br />
+So, should you then test getters and setters?</p>
+
+<p>You must test them. But, you may also choose not to.</p>
+
+<p>The fact that we ask these questions of ourselves or of others means that we’re looking for an answer that 
+allows us to not commit on something. Or that makes other people commit.</p>
+
+<p>When a boss asks us how much time we need to finish something, he or she is trying to make us 
+commit to the project schedule.</p>
+
+<p>When we ask on the internet if we should have 100% coverage, truthfully, we are looking for an answer that tells us 
+ <strong>we don’t need to</strong> – or that we only need 80% coverage.</p>
+
+<p>There’s always a fight between dogmatic and pragmatic people. If you’re a dogmatic
+developer you probably follow a TDD process without skipping any steps.</p>
+
+<p>If you are a pragmatic developer you probably have your own version of TDD in which you simply 
+skip some steps because you think they are not necessary.</p>
+
+<p>Both approaches are okay. You can use TDD and skip steps. Or you can have only 80% test coverage. 
+As long as you keep in mind that we should not set any limit on quality just because 
+that means more work for you.</p>
+
+<p>I believe limits on quality should only be set by situations we can’t control.</p>
+:ET

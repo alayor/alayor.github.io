@@ -1,0 +1,58 @@
+I"@<p>One day a manager asked a developer to create some <strong>new feature</strong>
+for a particular system.</p>
+
+<p>The developer agrees to deliver this new feature with the <strong>best
+quality</strong> possible and that she will put all her effort to create bug-free code.</p>
+
+<p>This developer will code on her own and <strong>with nobody’s help</strong>.</p>
+
+<!--excerpt_end-->
+<p><img src="/assets/images/landscape_mountains.jpg" alt="Required" /></p>
+
+<p>The developer then started to think what could be the best way to deliver
+a product with absolutely <strong>no bugs</strong>.</p>
+
+<p><em>“I surely need to create unit tests”</em>, The developer thought.</p>
+
+<p>But then, the developer asked herself <strong>how many</strong> unit tests she should create.
+Should it be one unit test <strong>per method</strong>? Should I use TDD? Should I achieve
+100% coverage? Do I really need to create <strong>that much</strong> amount of tests?</p>
+
+<p><strong>Do I really need to create tests at all?</strong></p>
+
+<p>She found herself in a situation in which nobody was going to 
+review her work. Nobody was going to complain if she <strong>doesn’t write</strong> the tests.</p>
+
+<p>Why? Because simply managers and leaders didn’t care.</p>
+
+<p><strong>What would you do in this case?</strong></p>
+
+<p>Let’s say that you particularly learnt a few week ago about TDD and the importance
+of <strong>not only</strong> create unit tests - but to create them <strong>first</strong>.</p>
+
+<p>And let’s say that you convinced yourself that TDD is the <strong>way to go</strong> 
+but somehow your coworkers and managers <strong>don’t agree</strong> with you. How much should 
+you try to <strong>talk them into</strong> about apply TDD in your current project?</p>
+
+<p>It really takes so much work - <em>and sometimes bravery</em> - to propose your ideas to others
+and try to <strong>convince</strong> them.</p>
+
+<p>But the reality is that if you manage to create <strong>persuasion skills</strong> so that you can 
+convince people about your new ideas, you will surely become more that just an <em><strong>average
+developer</strong></em>.</p>
+
+<p>It just takes a little time and effort to <strong>improve</strong> these kind of skills. 
+Basically, the first step is to <strong>recognize</strong> that you have a lack of expertise on 
+them (even if your an expert) in order to start studying techniques by reading 
+books or articles online.</p>
+
+<p>One technique that results particularly <strong>interesting</strong> to me is the story of the 
+<em><strong><a href="https://en.wikipedia.org/wiki/Stone_Soup" target="_blank">Stone Soup</a></strong></em>. 
+Which tells us a wat to <strong>convince</strong> people through <strong>actions</strong> instead of only words.</p>
+
+<p>The skills a <strong>professional developer</strong> must have don’t rely only on how to write 
+<strong>beautiful code</strong> or know everything about algorithms and data structures.</p>
+
+<p>The <strong>real</strong> professional developer stands out when it adds negotiation, 
+<strong>persuasion</strong> and pragmatism to her set of skills.</p>
+:ET

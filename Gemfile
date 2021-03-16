@@ -1,0 +1,10 @@
+source "https://rubygems.org"
+
+gem "jekyll"
+gem "jekyll-paginate"
+gem "jekyll-redirect-from"
+gem "jekyll-mentions"
+gem "jekyll-sitemap"
+gem "jekyll-seo-tag"
+gem "jekyll-feed"
+gem "jemoji"

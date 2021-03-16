@@ -1,0 +1,59 @@
+I"<p>Have you ever felt that good sensation when you fix <strong>duplicate code</strong>?
+I am sure you have felt that satisfaction when you know that you did 
+the right thing and everybody is happy about it.</p>
+
+<p>Have you ever felt the same satisfaction when you create a <strong>unit test</strong>?</p>
+
+<p><em>Probably not.</em></p>
+
+<!--excerpt_end-->
+<p><img src="/assets/images/winter.jpg" alt="Required" />
+The creation of a unit test may be more important than duplicate code 
+elimination.</p>
+
+<p>You may think this process is a waste of time and we shouldn’t bother
+to create unit tests for code that is already working.</p>
+
+<p><em>But - is it really a waste of time?</em></p>
+
+<p>Refactoring a piece of code is something we can feel <strong>proud</strong> 
+about, something we can show off to our team, and something that makes 
+us <strong>feel good</strong>.</p>
+
+<p>Creating a unit test is not something you can feel proud about. It’s 
+not something you can brag about to your teammates or something that 
+makes your team leader proud of you.</p>
+
+<p>Maybe this is because most of the time the <strong>execution</strong> of this unit test 
+is hidden until you or some other developer <strong>breaks it</strong>.</p>
+
+<p>The <strong>truth</strong> is that <em>unit tests</em> make refactoring much <strong>easier</strong>. 
+There are more software bugs related to a missing unit test than bugs 
+related to missing refactorings.</p>
+
+<p>We need a well suite of unit tests before doing a <strong>bug-free</strong> refactor. 
+Thus, unit tests are even <strong>more important</strong> that refactoring.</p>
+
+<p>Unit tests and functional tests are the <strong>specifications</strong> and design of our 
+<strong>system</strong>. We cannot develop a system without requirements.</p>
+
+<p><em><strong>Unit and functional tests are more important than the production code.</strong></em></p>
+
+<p>Writing the production code is a <strong>technical</strong> task. 
+Designing a system is an <strong>engineering</strong> task.</p>
+
+<p>Unit and functional tests represent the description of our system, 
+they tell us what the system <strong>does</strong>, how we can <strong>use</strong> it and what the 
+business rules and use cases are.</p>
+
+<p><em>Why do we hate them so much and try to avoid them?</em></p>
+
+<p>Software companies use tests as a <strong>quality control</strong> which has to be executed 
+executed at <strong>the end</strong> of the SDLC.</p>
+
+<p>Functional tests should be defined <strong>before</strong> starting the code development 
+and they should be executed <strong>every time</strong> the system is compiled.</p>
+
+<p>Let’s give unit tests the place they deserve in our code, which is the 
+<strong>base for the requirements</strong> and the <strong>description of our system</strong>.</p>
+:ET

@@ -1,0 +1,11 @@
+I"v<p>Should I test all setters and getters? What about testing code that I don’t own?
+Should I use pure TDD without skipping any steps?</p>
+
+<p>The short answer is: Yes.</p>
+
+<p>But the long answer is: Yes, you should.</p>
+
+<p>We shouldn’t set any limit to quality, we should always strive to get perfect each line
+of code and build 100% bug-free software solutions.</p>
+
+:ET

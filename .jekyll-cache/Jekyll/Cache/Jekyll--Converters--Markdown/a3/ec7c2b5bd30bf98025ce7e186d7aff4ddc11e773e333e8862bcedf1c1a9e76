@@ -1,0 +1,73 @@
+I"<p>We write code for <strong>fun</strong>. But we also write code to solve a problem based
+on provided requirements.</p>
+
+<p>Behind every new feature, there is a
+requirement or specification that our code <em>must met</em>.</p>
+
+<p>How can we <em>verify</em> if our code is really meeting those specifications?</p>
+
+<!--excerpt_end-->
+<p><img src="/assets/images/landscape_sunset.jpg" alt="Required" /></p>
+
+<p>There are several techniques to solve this. Companies usually have <strong>demo
+meetings</strong> with the people who created the specifications so that they can
+provide feedback and approve the solution.</p>
+
+<p>If we closely analyze these meetings we can tell that they are just
+a <strong>bunch of assertions</strong> to validate that the new code is working as <strong>intended</strong>.</p>
+
+<p>But, there is a problem with those meetings. What if a <em>new feature</em> is
+affecting an <em>old feature</em> that was <em>already</em> working?</p>
+
+<p>Do we need to call a new meeting <strong>again</strong> to verify the <em>old feature</em>?</p>
+
+<p>It seems that companies try to solve this by creating specialized teams 
+for solving defects and running regression tests.</p>
+
+<p>Nowadays many software teams are striving to improve this process by 
+creating automated <strong>functional tests</strong> which are often included <strong>at the end</strong>
+of the code development phase or whenever a <strong>bug</strong> is found.</p>
+
+<p><em>These automated tests describe the specifications of the system.
+They specify how the system should behave.</em></p>
+
+<p>The problem with this approach is that we end up having specifications 
+defined in <strong>two different places</strong>. One from the <strong>business area</strong> and the other
+from the <strong>functional tests</strong>. Thus, these specifications need to be
+synchronized to avoid misunderstandings.</p>
+
+<p>Teams end up not knowing who is telling the <strong>truth</strong>. They don’t know
+whether the <em>business area</em> or the <em>functional tests</em> have the <strong>right</strong> specifications.
+They often agree on consider the production code as the <strong>source of truth</strong>.</p>
+
+<p>Wouldn’t it be better if we write the business requirements and 
+automated tests at the <strong>same time</strong> and in the <strong>same place</strong>?</p>
+
+<p>By doing this, we could avoid many problems and confusions about
+the specifications when adding a new feature to the system.</p>
+
+<p>We also could write our code confidently and verify it any time to see 
+if our solution is meeting the specifications.</p>
+
+<p>We wouldn’t have to <strong>wait</strong> at the end of the iteration to validate if we are
+doing the <strong>right</strong> thing or impacting another feature.</p>
+
+<p>People who create and define business requirements are often not 
+familiar with code writing. However, it wouldn’t be difficult to create 
+a team that could translate those requirements into automated functional 
+tests. Teams could even create tools to automate this task.</p>
+
+<p><strong>Test-driven development</strong> specifies that we need to create a test before
+creating any production code. This sounds like we need to create the 
+specification <strong>before</strong> creating the new functionality.</p>
+
+<p>There are new concepts like <strong>Behavior-driven development</strong> which propose to consider
+the specifications as a ubiquitous language and the use of tools to 
+<strong>automate</strong> the specification verification process.</p>
+
+<p>We could take this further and provide specifications for <strong>every</strong> new
+piece of code we create. We could do this for each class and each method.</p>
+
+<p>Maybe someday we could stop consider tests as a QA tool and start 
+consider them as a <strong>specifications definition strategy</strong>.</p>
+:ET
