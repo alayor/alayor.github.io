@@ -4,8 +4,9 @@
 .site-header {
   display: flex;
   justify-content: center;
+  align-items: center;
   border-bottom: 2px solid black;
-  min-height: 56px;
+  height: 2.5em;
   background-color: #312f2f;
   margin-bottom: 10px;
 
