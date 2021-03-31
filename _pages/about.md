@@ -4,8 +4,8 @@ title: About
 permalink: /about
 ---
 
-**Alonso A. Ortega** *(alayor)* is a professional software engineer with
-6+ years of experience creating highly maintainable software products.
+**Alonso A. Ortega** is a professional software engineer with
+10+ years of experience creating highly maintainable software products.
 He's an experienced full-stack developer committed to software quality
 and on-time deliveries.
 
@@ -15,11 +15,12 @@ meet the client requirements and exceed any expectations.
 
 
 <br />
-Email me: <a href="mailto:alayor3@gmail.com">alayor3@gmail.com</a>
+Email: <a href="mailto:alayor3@gmail.com">alayor3@gmail.com</a>
 
 <br />
-<br />
 *Certifications*
+
+[AWS Certified Developer](http://www.alayor.com/assets/certs/AWSDeveloper.pdf)
 
 [Java EE 6](http://www.alayor.com/assets/certs/JavaEE6.pdf)
 
